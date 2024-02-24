@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Anta", sans-serif;
+}
+
+span{
+ margin-left: 5px;
+ color: orange;
+}
+span:hover{
+ color: aqua;
+ transition: 0.5s ease-in;
+}
+
+section{
+ position: relative;
+ width: 100%;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ background-color: rgb(0, 0, 0);
+ background-size: cover;
+ background-position: center;
+}
+
+header{
+ position: relative;
+ top: 0;
+ width: 100%;
+ padding: 35px 100px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+header .Logo{
+ position: relative;
+ color: aqua;
+ font-size: 30px;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-weight: 800;
+ letter-spacing: 2px;
+}
+
+
+header .Logo:hover{
+ cursor: pointer;
+ color: orange;
+ transition: 0.5s;
+}
+
+
+header .container a{
+ color: black;
+ background-color: Aqua;
+ text-decoration: none;
+ font-weight: 500;
+ letter-spacing: 1px;
+ padding: 2px 15px;
+ border-radius: 20px;
+ transition: 0.5s;
+ transition-property: background;
+}
+
+
+header .container a:not(:last-child){
+ margin-right: 20px;
+}
+
+header .container a:hover{
+ background: black;
+ color: orange;
+ border-color: orange;
+ transition: ease-in 0.5s;
+}
+
+
+.content{
+max-width: 650px;
+margin: 60px 100px;
+}
+
+.content .Info h2{
+ color: aqua;
+ font-size: 40px;
+ text-transform: uppercase;
+ font-weight: 800;
+ letter-spacing: 2px;
+ line-height: 40px;
+ margin-bottom: 30px;
+}
+
+.content .Info h2:hover{
+ color: orange;
+ transition: ease-in 0.5s;
+ cursor: pointer;
+}
+
+.content .Info p{
+ font-size: 24px;
+ font-weight: 500;
+ margin-bottom: 48px;
+ color: orange;
+}
+
+.content .Info p:hover{
+ color: aqua;
+ transition: ease-in .5s;
+ cursor: pointer;
+}
+
+.content .Info-btn{
+ color:black;
+ background-color: orange;
+ text-decoration: none;
+ text-transform: .4s uppercase;
+ font-weight: 700;
+ letter-spacing: 2px;
+ padding: 10px 20px;
+ border-radius: 5px;
+ transition: .5s;
+}
+
+.content .Info-btn:hover{
+ color: orange;
+ background-color: black;
+ transition: .5s;
+}
+
+.Gallery{
+ width: 50%;
+ height: 200px;
+ display: flex;
+ gap: 15px;
+}
+.Gallery img{
+ width: 10%;
+ height: 100%;
+ object-fit: cover;
+ border-radius: 10px;
+ border: 2px solid ridge;
+ transition: all ease-out 0.6s;
+ cursor: pointer;
+ justify-content: center;
+ align-items: center;
+ margin-left: 150px;
+ margin-bottom: 75px;
+}
+.Gallery img:hover{
+ width: 100%;
+ transition: ease-in-out .5s;
+}
+
+.Media-icons{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+}
+
+.Media-icons a{
+ position: relative;
+ color: aqua;
+ font-size: 40px;
+ transition: .3s;
+ transition-property: transform;
+}
+
+.Media-icons a:not(:last-child){
+margin-right: 60px;
+}
+
+.Media-icons a:hover{
+ transform:scale(1.6);
+ transition: .5s ease-in;
+}
